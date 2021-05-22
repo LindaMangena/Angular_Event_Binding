@@ -7,11 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyFirstTodoApp';
+  public greeting = '';
 
 
-ngOnInit(){}
+ngOnInOnit(){}
 
   onClick(){
-    console.log('On Click event working');
+    console.log('Click event working ')
+    this.greeting = 'Linda'
+
   }
 }
